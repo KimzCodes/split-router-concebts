@@ -1,4 +1,4 @@
 import ReactDOM from "react-dom/client";
-import Router from "./router";
+import RouterHandler from "./router/RouterHandler";
 
-ReactDOM.createRoot(document.getElementById("root")).render(<Router />);
+ReactDOM.createRoot(document.getElementById("root")).render(<RouterHandler />);

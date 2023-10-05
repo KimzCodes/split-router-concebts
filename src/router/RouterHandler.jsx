@@ -1,11 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Main from "../layout/Main";
+import Root from "../layout/Root";
 
-const Router = () => {
+const RouterHandler = () => {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Main />,
+      element: <Root />,
 
       children: [{}],
     },
@@ -13,4 +13,4 @@ const Router = () => {
   return <RouterProvider router={router} />;
 };
 
-export default Router;
+export default RouterHandler;
